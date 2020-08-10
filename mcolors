@@ -13,8 +13,6 @@ c7='[37m'; c8='[38m'
 
 palette="[7m$c1 $c1 $c2 $c2 $c3 $c3 $c4 $c4 $c5 $c5 $c6 $c6 [m"
 
-# Art based on https://asciiart.website/index.php?art=plants/flowers
-
 ARTR1="          ${c1}/\                   ${c3}/\                   ${c5}/\                  "	 
 ARTR2="         ${c1}/  \                 ${c3}/  \                 ${c5}/  \                 "
 ARTR3="        ${c1}/\/\/\   ${c2}/\          ${c3}/\/\/\   ${c4}/\          ${c5}/\/\/\   ${c6}/\      "
@@ -26,12 +24,14 @@ ARTR8="   ${c1}/  /     ${c2} \ /  \/\   ${c3}/  /     ${c4} \/  \/\    ${c5}/  
 
 # Print
 cat <<-EOF
-  ${ARTR1}
-  ${ARTR2}
-  ${ARTR3}
-  ${ARTR4}
-  ${ARTR5}
-  ${ARTR6}
-  ${ARTR7}  
-  ${ARTR8}
+
+${ARTR1}
+${ARTR2}
+${ARTR3}
+${ARTR4}
+${ARTR5}
+${ARTR6}
+${ARTR7}  
+${ARTR8}
+
 EOF
