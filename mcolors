@@ -1,0 +1,37 @@
+#! /bin/sh
+
+#####################
+# Colors 
+#####################
+
+# Colors and palette method stolen from dylanaraps pftech: https://github.com/dylanaraps/pfetch
+c0='[0m'
+c1='[31m'; c2='[32m'
+c3='[33m'; c4='[34m'
+c5='[35m'; c6='[36m'
+c7='[37m'; c8='[38m'
+
+palette="[7m$c1 $c1 $c2 $c2 $c3 $c3 $c4 $c4 $c5 $c5 $c6 $c6 [m"
+
+# Art based on https://asciiart.website/index.php?art=plants/flowers
+
+ARTR1="          ${c1}/\                   ${c3}/\                   ${c5}/\                  "	 
+ARTR2="         ${c1}/  \                 ${c3}/  \                 ${c5}/  \                 "
+ARTR3="        ${c1}/\/\/\   ${c2}/\          ${c3}/\/\/\   ${c4}/\          ${c5}/\/\/\   ${c6}/\      "
+ARTR4="       ${c1}/      \ ${c2}/\/\        ${c3}/      \ ${c4}/\/\        ${c5}/      \ ${c6}/\/\     "
+ARTR5="      ${c1}/  /\    ${c2}/    \      ${c3}/  /\    ${c4}/    \      ${c5}/  /\    ${c6}/    \    "
+ARTR6="     ${c1}/  /  \  ${c2}/      \    ${c3}/  /  \  ${c4}/      \    ${c5}/  /  \  ${c6}/      \   "
+ARTR7="    ${c1}/  /     ${c2}/  /\    \  ${c3}/  /     ${c4}/ /\     \  ${c5}/  /     ${c6}/ /\     \  "
+ARTR8="   ${c1}/  /     ${c2} \ /  \/\   ${c3}/  /     ${c4} \/  \/\    ${c5}/  /     ${c6} \/  \/\   \ "
+
+# Print
+cat <<-EOF
+  ${ARTR1}
+  ${ARTR2}
+  ${ARTR3}
+  ${ARTR4}
+  ${ARTR5}
+  ${ARTR6}
+  ${ARTR7}  
+  ${ARTR8}
+EOF
